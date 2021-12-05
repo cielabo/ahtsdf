@@ -1,0 +1,11 @@
+[package]
+name = "ahtsdf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glow = "0.10.0"
+sdl2 = "0.34.5"
+cgmath = {version = "0.18.0", features = ["swizzle"]}
+bytemuck = "1.7.0"
+clap = "2.33.3"
