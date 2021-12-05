@@ -1,5 +1,9 @@
 # ahtsdf
+
 Real-time rendering of AHT curves from .bruker files
+
+
+<img src="https://user-images.githubusercontent.com/63974030/144765334-635123c6-20bb-45db-8fa5-4b7e14bbaa2b.png" alt="img text" style="width:300px;"/> <img src="https://user-images.githubusercontent.com/63974030/144765437-c74e2937-2dee-4322-b52e-eee736f88bd3.png" alt="img text" style="width:300px;"/> <img src="https://user-images.githubusercontent.com/63974030/144765814-7498ed51-8d24-4186-aa68-cd32cec449c9.png" alt="img text" style="width:300px;"/>
 
 ## dependencies
 - The Rust programming language: [download](https://www.rust-lang.org/learn/get-started)
