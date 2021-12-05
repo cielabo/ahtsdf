@@ -26,5 +26,5 @@ Running the program might look something like this:
 
 In this case, the curve is rendered for a delta time value of 50 microseconds. It uses the shader `RAD_VEC` to display the image on a 700 by 400 pixel window. The `amplitude` parameter is not explicitly set, therefore its default value of 10000 Hz is used.
 
-## permanent installation
+## installation
 To avoid always having to run **ahtsdf** from its `build` directory, Linux users can copy its binary into `/usr/local/bin/` for immediate access regardless of working directory.
