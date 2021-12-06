@@ -10,7 +10,7 @@ Real-time rendering of AHT curves from .bruker files
 - The SDL2 development library: [download](https://www.libsdl.org/download-2.0.php)
 - Hardware that supports OpenGL version 4.3 or newer.
 
-SDL2 is a bit harder to set up on Windows: After unzipping the tarball, the DLL `SDL2-x.y.z/<platform_name>/bin/SDL2.dll` must be added to Rust's linker search path by moving it to `<rust_install_directory>/bin/rustlib/<build_target>/lib`.
+SDL2 is a bit harder to set up on Windows: After unzipping the tarball, the DLL `SDL2-x.y.z/<platform_name>/bin/SDL2.dll` must be added to Rust's linker search path by moving it to `<rust_install_directory>/bin/rustlib/<build_target>/lib`. `<platform_name>`refers to MinGW-w64 (recommended) or Visual C++ build tools, one of which must be set up to build on Windows.
 
 ## compiling
 In the project's root directory `ahtsdf`, run `cargo build --release`.
